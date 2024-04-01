@@ -1,0 +1,13 @@
+[package]
+name = "forester-webots"
+version = "0.1.0"
+edition = "2021"
+description = "Integration Forester and WeBots"
+authors = ["BorisZhguchev <zhguchev@hotmail.com>"]
+homepage = "https://github.com/besok/forester"
+repository = "https://github.com/besok/forester"
+license-file = "LICENSE"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[build-dependencies]
+bindgen = "0.69.4"
